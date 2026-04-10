@@ -23,11 +23,11 @@ export default function AboutPage() {
             <span className="text-[#0A1F3E]">About</span>
           </div>
           <h1 className="font-display font-light text-[52px] md:text-[88px] lg:text-[104px] leading-[0.95] tracking-[-0.035em] text-[#0A1F3E] max-w-[980px]">
-            Est. {BUSINESS.establishedYear}.
+            Founded in
             <br />
-            Still picking
+            Brooklyn,
             <br />
-            up the phone.
+            {BUSINESS.establishedYear}.
           </h1>
         </div>
       </section>
@@ -144,7 +144,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-[1320px] px-6 md:px-12 py-20 md:py-24">
           <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-8">
             <h2 className="font-display font-light text-[36px] md:text-[56px] leading-[1.05] tracking-[-0.025em] max-w-[640px]">
-              Need a plumber who&rsquo;ll actually answer?
+              When you need us, we&rsquo;re here.
             </h2>
             <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
               <a

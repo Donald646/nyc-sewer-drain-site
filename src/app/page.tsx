@@ -25,18 +25,16 @@ function Hero() {
         <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1.15fr)_minmax(0,1fr)] gap-16 lg:gap-20 items-center">
           {/* Text column */}
           <div className="flex flex-col gap-10">
-            <h1 className="font-display font-light text-[52px] md:text-[76px] lg:text-[86px] leading-[0.98] tracking-[-0.03em] text-[#0A1F3E]">
-              The plumber
+            <h1 className="font-display font-light text-[46px] md:text-[64px] lg:text-[74px] leading-[1] tracking-[-0.025em] text-[#0A1F3E]">
+              All your plumbing
               <br />
-              who picks up
-              <br />
-              the phone.
+              needs, one call away.
             </h1>
-            <p className="text-[17px] md:text-[19px] leading-[1.6] text-[#5A5F6A] max-w-[520px]">
-              NYC Sewer &amp; Drain Pro Solutions is a family-owned plumbing
-              company serving all five boroughs and Nassau County. Licensed,
-              insured, BBB A+ rated. Emergency calls answered around the clock
-              — by a real person, every time.
+            <p className="text-[17px] md:text-[19px] leading-[1.6] text-[#5A5F6A] max-w-[540px]">
+              Drain cleaning, sewer repair, water heaters, burst pipes, and
+              24/7 emergencies — one licensed team for every plumbing job
+              across the five boroughs and Nassau County. BBB A+ rated since
+              2020.
             </p>
             <div className="flex flex-wrap items-center gap-6 pt-2">
               <a
